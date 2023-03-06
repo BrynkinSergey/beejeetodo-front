@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import { store } from './store'
 import { Provider } from 'react-redux'
-window.backendUrl = 'http://localhost:8000';
+window.backendUrl = 'https://beejee-todo.herokuapp.com';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
